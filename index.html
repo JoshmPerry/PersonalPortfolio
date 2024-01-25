@@ -1,33 +1,35 @@
 <html>
 <head>
-    
+    <link rel="stylesheet" href="classic.css">
+    <script src="navigator.js"></script>
 </head>
 <body>
     <div class="ProfilePictures">
-        <img class="ProfilePicture" src="pics/one.jpg"></img>
-        <img class="ProfilePicture" src="pics/two.jpg"></img>
-        <img class="ProfilePicture" src="pics/three.jpg"></img>
-        <img class="ProfilePicture" src="pics/four.jpg"></img>
-        <img class="ProfilePicture" src="pics/five.jpg"></img>
-        <img class="ProfilePicture" src="pics/six.jpg"></img>
+        <img class="ProfilePicture" id="one" src="pics/one.jpg"></img>
+        <img class="ProfilePicture" id="two" src="pics/two.jpg"></img>
+        <img class="ProfilePicture" id="three" src="pics/three.jpg"></img>
+        <img class="ProfilePicture" id="four" src="pics/four.jpg"></img>
+        <img class="ProfilePicture" id="five" src="pics/five.jpg"></img>
+        <img class="ProfilePicture" id="six" src="pics/six.jpg"></img>
+        <div class="Title" id="ProfileName">Joshua<br>Perry</div>
     </div>
 
-    <div class="Title">Joshua Perry</div>
-    <div class="SectionContainer">
-        <div class="SectionHeader">About Me</div>
-        <div class="SectionDescription">I am a coffee loving, God fearing proud American who sleeps enough. Currently, I am a sophmore in Computer Science at A&M.</div>
+    
+    <div class="SectionContainer Clickable" onclick="toAbout()">
+        <div class="SectionHeader Header">About Me</div>
+        <div class="SectionDescription Description">I am a coffee loving, God fearing proud American who sleeps enough. Currently, I am a sophmore in Computer Science at A&M.</div>
     </div>
-    <div class="SectionContainer">
-        <div class="SectionHeader">Projects</div>
-        <div class="SectionDescription">In my sparce free time, I enjoy programming with new technologies and leading the Mouseless Mouse team.</div>
+    <div class="SectionContainer Clickable" onclick="toProjects()">
+        <div class="SectionHeader Header">Projects</div>
+        <div class="SectionDescription Description">In my sparce free time, I enjoy programming with new technologies and leading the Mouseless Mouse team.</div>
     </div>
-    <div class="SectionContainer">
-        <div class="SectionHeader">Experience</div>
-        <div class="SectionDescription">Suprisingly, I have work experience and a decent resume.</div>
+    <div class="SectionContainer Clickable" onclick="toExperience()">
+        <div class="SectionHeader Header">Experience</div>
+        <div class="SectionDescription Description">Suprisingly, I have work experience and a decent resume.</div>
     </div>
-    <div class="SectionContainer">
-        <div class="SectionHeader">AI Insight</div>
-        <div class="SectionDescription">A page created by Chat-GPT about the limitations of itself.</div>
+    <div class="SectionContainer Clickable" onclick="toAI()">
+        <div class="SectionHeader Header">AI Insight</div>
+        <div class="SectionDescription Description">A page created by Chat-GPT about the limitations of itself.</div>
     </div>
 </body>
 </html>
