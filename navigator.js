@@ -1,15 +1,17 @@
+var basehr="https://people.tamu.edu/~joshmperry/"
+
 function toHome(){
-    location.href="/";
+    location.href=basehr;
 }
 function toAbout(){
-    location.href="/AboutMe";
+    location.href=basehr+"AboutMe";
 }
 function toProjects(){
-    location.href="/Projects";
+    location.href=basehr+"Projects";
 }
 function toExperience(){
-    location.href="/Experience";
+    location.href=basehr+"Experience";
 }
 function toAI(){
-    location.href="/AIInsight";
+    location.href=basehr+"AIInsight";
 }
