@@ -15,3 +15,12 @@ function toExperience(){
 function toAI(){
     location.href=basehr+"AIInsight";
 }
+
+function changeStyle(){
+    
+}
+
+
+window.onload=function(){
+
+}
