@@ -189,6 +189,14 @@ body{
     border-radius: 15px;
 }
 
+.display2{
+    display:none;
+}
+
+.reSUME{
+    display:none;
+}
+
 .Clickable{
     cursor: pointer;
 }
