@@ -1,35 +1,37 @@
 <html>
 <head>
-    <link rel="stylesheet" href="classic.css">
+    <link id="style" rel="stylesheet" href="classic.css">
     <script src="navigator.js"></script>
 </head>
 <body>
-    <div class="ProfilePictures" onclick="changeStyle()">
-        <img class="ProfilePicture" id="one" src="pics/one.jpg"></img>
-        <img class="ProfilePicture" id="two" src="pics/two.jpg"></img>
-        <img class="ProfilePicture" id="three" src="pics/three.jpg"></img>
-        <img class="ProfilePicture" id="four" src="pics/four.jpg"></img>
-        <img class="ProfilePicture" id="five" src="pics/five.jpg"></img>
-        <img class="ProfilePicture" id="six" src="pics/six.jpg"></img>
-        <div class="Title" id="ProfileName">Joshua<br>Perry</div>
+    <div class="ProfilePictures">
+        <div class="images Clickable" onclick="changeStyle()">
+            <img class="ProfilePicture" id="one" src="pics/one.jpg"></img>
+            <img class="ProfilePicture" id="two" src="pics/two.jpg"></img>
+            <img class="ProfilePicture" id="three" src="pics/three.jpg"></img>
+            <img class="ProfilePicture" id="four" src="pics/four.jpg"></img>
+            <img class="ProfilePicture" id="five" src="pics/five.jpg"></img>
+            <img class="ProfilePicture" id="six" src="pics/six.jpg"></img>
+        </div>
+        <div class="Title" id="ProfileName">Joshua Perry</div>
     </div>
 
     
-    <div class="SectionContainer Clickable" onclick="toAbout()">
-        <div class="SectionHeader Header">About Me</div>
-        <div class="SectionDescription Description">I am a coffee loving, God fearing proud American. In short, my goals are to help the community and learn along the way. There are many people I can't help, but I will try my best with those around me</div>
+    <div class="SectionContainer HomeContainer Clickable" onclick="toAbout()">
+        <div class="SectionHeader HomeHeader Header">About Me</div>
+        <div class="SectionDescription HomeDescription Description">I am a coffee loving, God fearing proud American. In short, my goals are to help the community and learn along the way. There are many people I can't help, but I will try my best with those around me</div>
     </div>
-    <div class="SectionContainer Clickable" onclick="toProjects()">
-        <div class="SectionHeader Header">Projects</div>
-        <div class="SectionDescription Description">In my sparce free time, I enjoy programming with new technologies and leading the Mouseless Mouse team. Although many of my projects are too small to be worth mentioning, my rigor in those mentioned speak for what is not listed.</div>
+    <div class="SectionContainer HomeContainer Clickable" onclick="toProjects()">
+        <div class="SectionHeader HomeHeader Header">Projects</div>
+        <div class="SectionDescription HomeDescription Description">In my sparce free time, I enjoy programming with new technologies and leading the Mouseless Mouse team. Although many of my projects are too small to be worth mentioning, my rigor in those mentioned speak for what is not listed.</div>
     </div>
-    <div class="SectionContainer Clickable" onclick="toExperience()">
-        <div class="SectionHeader Header">Experience</div>
-        <div class="SectionDescription Description">Despite how spread out I am, I have a decent amount of experience. I have worked a handful of jobs and am looking forward to working at USAA this Summer of 2024.</div>
+    <div class="SectionContainer HomeContainer Clickable" onclick="toExperience()">
+        <div class="SectionHeader HomeHeader Header">Experience</div>
+        <div class="SectionDescription HomeDescription Description">Despite how spread out I am, I have a decent amount of experience. I have worked a handful of jobs and am looking forward to working at USAA this Summer of 2024.</div>
     </div>
-    <div class="SectionContainer Clickable" onclick="toAI()">
-        <div class="SectionHeader Header">AI Insight</div>
-        <div class="SectionDescription Description">A page entirly created by Chat-GPT about the limitations of itself. The prompt was a bit messy to get it to actually repeat the prompt and create the rest of the web page</div>
+    <div class="SectionContainer HomeContainer Clickable" onclick="toAI()">
+        <div class="SectionHeader HomeHeader Header">AI Insight</div>
+        <div class="SectionDescription HomeDescription Description">A page entirly created by Chat-GPT about the limitations of itself. The prompt was a bit messy to get it to actually repeat the prompt and create the rest of the web page</div>
     </div>
 </body>
 </html>
