@@ -2,6 +2,10 @@ body,html{
     margin:0px;
 }
 
+a{
+    color:black;
+}
+
 body{
     padding:auto;
     background-color: #89D0F0;
